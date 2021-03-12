@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	int a[] = {5, 3, 4, 2, 1};
 	int n = 5;
-	cout << endl << "Insertion Sort..." << endl << endl;
+	cout << endl << "Selection Sort..." << endl << endl;
 	for (int i = 0; i < n - 1; i++) {
 		int min = i;
 		for (int j = i + 1; j < n; j++) {
